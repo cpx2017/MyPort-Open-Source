@@ -11,14 +11,14 @@ Notes: This project is used for education and get modified to own project purpos
 ---
 Project Description
 
-Name: MyPort Source
-Type: Open Source
-Published/Commited Date: 16/7/2020 
-Developer: Chinnathorn Promnaruritr
-Web Font: Kanit (Google Font Project)
-Front-End: HTML, CSS, JavaScript/JQuery, AJAX, Bootstrap, Fontawesome etc.
-Back-End: C#, ASP Dot NET MVC
-Preview Project Online: [Here](https://portfolio.chinnathornp.com)
+* Name: MyPort Source
+* Type: Open Source
+* Published/Commited Date: 16/7/2020 
+* Developer: Chinnathorn Promnaruritr
+* Web Font: Kanit (Google Font Project)
+* Front-End: HTML, CSS, JavaScript/JQuery, AJAX, Bootstrap, Fontawesome etc.
+* Back-End: C#, ASP Dot NET MVC
+* Preview Project Online: [Here](https://portfolio.chinnathornp.com)
 ---
 Project Requirement
 1) Windows PC (Windows 7 OS or above)
