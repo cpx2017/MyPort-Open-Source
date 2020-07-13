@@ -1,0 +1,587 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyPort Source - เว็บเป็นทางการ</title>
+    <link rel="shortcut icon" href="~/Content/images/user.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="inaMuFrLFuGKqgD-RuChn8d2F6olcMImfGCAKIuiDiY" />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="~/Content/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icomoon@1.0.0/style.min.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexslider@2.7.2/flexslider.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icomoon@1.0.0/style.min.css">
+    <!-- Modernizr JS -->
+    <link rel="stylesheet" href="~/Content/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.css">
+    <!-- FOR IE9 below -->
+    <script src="https://cdn.jsdelivr.net/npm/respond.min.js@1.4.2/respond.min.js"></script>
+
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
+
+</head>
+<body class="fade-in">
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="fade-in border js-fullheight" data-animate-effect="fadeInLeft">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url(/Content/images/author-1.png);"></div>
+                    <h1 id="colorlib-logo"><a>ชิณธร พร้อมนฤฤทธิ์</a></h1>
+                    <span class="position"><a>Junior Web Developer</a> in Thailand</span>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li class="active"><a href="#" data-nav-section="home">หน้าหลัก</a></li>
+                            <li><a href="#" data-nav-section="about">ประวัติส่วนตัว</a></li>
+                            <li><a href="#" data-nav-section="education">ประวัติการศึกษา</a></li>
+                            <li><a href="#" data-nav-section="skill">ความสามารถ</a></li>
+                            <li><a href="#" data-nav-section="internship">ประสบการณ์การฝึกงาน</a></li>
+                            <li><a href="#" data-nav-section="portfolio">แฟ้มผลงาน</a></li>
+                            <li><a href="#" data-nav-section="favorite">งานอดิเรกและสิ่งที่ชอบ</a></li>
+                            <li><a href="#" data-nav-section="contact">การติดต่อ</a></li>
+                            <li><a id="changelang" href="" data-toggle="tooltip" data-placement="bottom" title="คลิกที่นี่เมื่อต้องการเปลี่ยนภาษา"><span class="flag-icon flag-icon-th"></span> <b>ไทย</b></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+
+            <div id="colorlib-main" class="fade-in">
+                <section id="colorlib-hero" class="js-fullheight" data-section="home">
+                    <div class="flexslider js-fullheight">
+                        <ul class="slides">
+                            <li style="background-image: url(/Content/images/Background.jpg);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner js-fullheight">
+                                                <div class="desc">
+                                                    <h1>Hi! I'm Chinnathorn.</h1>
+                                                    <h2>ผมเป็นโปรแกรมเมอร์ใหม่ที่กำลังหาความรู้ใหม่ๆ เพื่อต่อยอดตัวเอง</h2>
+                                                    <p><a href="" class="btn btn-primary btn-learn">ดาวน์โหลด CV</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="background-image: url(/Content/images/Background1.jpg);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <h1>I'm a New-Gen Web Developer.</h1>
+                                                    <h2>ผมเชื่อว่าโปรแกรมเมอร์แต่ละคนต่างมีเป้าหมายเป็นของตนเอง เช่นเดียวกับผมที่อยากเป็นโปรแกรมเมอร์เพื่อเก็บประสบการณ์เพิ่มเติมและต่อยอดจากสิ่งที่ตัวผมมีอยู่แล้วเพื่อก้าวต่อไปในอนาคต</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <span class="heading-meta">About Us</span>
+                                            <h2 class="colorlib-heading">ประวัติส่วนตัว</h2>
+                                            <p><strong>สวัสดีครับ ผมนายชิณธร พร้อมนฤฤทธิ์</strong> อายุ 24 ปี ผมกำลังมองหางานตำแหน่งโปรแกรมเมอร์ เพราะผมชอบเขียนโปรแกรมตั้งแต่สมัยเรียนมหาวิทยาลัยครับ ถึงแม้ว่าผมอาจจะยังไม่มีความรู้เรื่องเขียนเว็บมาก่อน แต่ผมก็พร้อมที่จะเรียนรู้สิ่งใหม่ๆ เพื่อที่จะนำไปพัฒนาตนเองต่อไป</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <h2 class="colorlib-heading">My Working LifeStyle</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                            <div class="services color-1">
+                                                <span class="icon2"><i class="fas fa-user-plus fa-2x"></i></span>
+                                                <h3>มีทัศนคติเชิงบวกและเปิดรับสิ่งใหม่ๆ</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInTop">
+                                            <div class="services color-2">
+                                                <span class="icon2"><i class="fas fa-user-clock fa-2x"></i></span>
+                                                <h3>ชอบทำงานแบบยืดหยุ่น ไม่ตึงเครียดจนเกินไป</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                                            <div class="services color-3">
+                                                <span class="icon2"><i class="fas fa-users fa-2x"></i></span>
+                                                <h3>ทำงานร่วมกับผู้อื่นได้ดี</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-education" data-section="education">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Education History (Click card to expand more)</span>
+                                <h2 class="colorlib-heading animate-box">ประวัติการศึกษา</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="fancy-collapse-panel">
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <i class="fas fa-graduation-cap"></i>   ระดับปริญญาตรี - สาขาวิชาคอมพิวเตอร์ธุรกิจ
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                                <div class="panel-body">
+                                                    <div class="col-md-4">
+                                                        <figure>
+                                                            <a href="" class="wrap text-center"><img src="~/Content/images/school.jpg" width="150" alt="Image" class="img-fluid"></a>
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p><strong>ชื่อคณะ: </strong>วิทยาการจัดการ</p>
+                                                        <p><strong>ชื่อสถาบัน: </strong>University</p>
+                                                        <p><strong>ที่อยู่ปัจจุบัน: </strong>ถนนอิสรภาพ, กรุงเทพฯ, ประเทศไทย</p>
+                                                        <p><strong>เกรดที่จบ: </strong>4.00 <a href="">ดูเอกสารทางการศึกษา</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseFive">
+                                                        <i class="fas fa-school"></i>   ระดับชั้นมัธยมศึกษาตอนปลาย - สาขาวิชาคณิตและอังกฤษ
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    <div class="col-md-4">
+                                                        <figure>
+                                                            <a href="" class="wrap text-center"><img src="~/Content/images/school.jpg" width="150" alt="Image" class="img-fluid"></a>
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p><strong>ชื่อหลักสูตร: </strong>สองภาษา</p>
+                                                        <p><strong>ชื่อสถานศึกษา: </strong>High School</p>
+                                                        <p><strong>ที่อยู่ปัจจุบัน: </strong>เขตบางบอน, กรุงเทพฯ, ประเทศไทย</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-skill" data-section="skill">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Programming Skill</span>
+                                <h2 class="colorlib-heading animate-box">ความสามารถ</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                <p>เริ่มต้นผมได้เรียนเกี่ยวกับการเขียนโปรแกรมตั้งแต่สมัยผมอยู่ปีหนึ่ง ซึ่งทางมหาวิทยาลัยได้ใช้ภาษา VB.Net ในการพัฒนาเป็น Desktop App จนกระทั่งหลังจากผมเรียนจบ ผมได้เข้าไปเริ่มเขียนเว็บโดยการใช้ .NET framework และ .NET core ตั้งแต่นั้นมา</p>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="services color-1">
+                                    <h3>ASP.Net MVC (VB.Net) Back-End Programming</h3>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| ออกแบบระบบหลังบ้านโดยใช้ .NET Framework (VB.Net) ได้ และเชื่อมต่อกับ Database ได้</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="services color-2">
+                                    <h3>Database (Microsoft SQL Server and MySQL)</h3>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| ออกแบบ Database และสามารถใช้คำสั่งพื้นฐาน (CREATE, SELECT, INSERT, UPDATE, DELETE) ได้ และใช้งาน Store procedured ได้เบื้องต้น (ใช้ได้ทั้ง Microsoft SQL Server และ MySQL)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="services color-3">
+                                    <h3>Back-End Web Developer (C#, ASP.Net MVC/MVC Core)</h3>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| ออกแบบระบบหลังบ้านโดยใช้ .NET Framework / .NET Core Framework (C#.NET) ได้ และเชื่อมต่อกับ Database ได้ในระดับเบื้องต้น</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="services color-4">
+                                    <h3>Front-End Web Developer (HTML, CSS, Javascript/JQuery, AJAX)</h3>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| สามารถใช้ HTML/CSS (Bootstrap Framework) ในการปรับแต่งโครงสร้างหน้าเว็บได้ และใช้ JQuery ในการเรนเดอร์ลูกเล่นบนหน้าเว็บ รวมทั้งใช้ AJAX เพื่อดึงข้อมูลจากระบบหลังบ้านได้</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="services color-5">
+                                    <h4>Microsoft Office (Word/Excel/Powerpoint)</h4>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| ใช้โปรแกรม Microsoft Office Word/Excel/Powerpoint ได้ในเบื้องต้น</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="services color-6">
+                                    <h4>Another Computer/Programming Skill (IT Support, Python, Angular or C++ Programming etc.)</h4>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span>| ยังเคยศึกษาภาษาอื่นๆ มาบ้าง เช่น Angular, Python, C/C++ แต่อาจจะต้องใช้เวลา</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-experience" data-section="internship">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Preparing to find Job</span>
+                                <h2 class="colorlib-heading">ประสบการณ์การฝึกงาน</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="timeline-centered">
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-3">
+                                                
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2>Programmer <span>Feb 2019 - April 2019</span></h2>
+                                                <h4><a href="" class="wrap">Company, กรุงเทพฯ - ประเทศไทย</a></h4>
+                                                <p>เรียนรู้การทำงานของเครื่องมาร์คแบบดอทและเลเซอร์ รวมทั้งการเขียนโปรแกรมควบคุมการทำงาน รวมทั้งเรียนรู้วัฒนธรรมและการไลฟ์สไตล์ของคนสิงคโปร์</p>
+                                            </div>
+                                        </div>
+                                    </article>
+
+
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-4">
+                                                
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2>Programmer, IT Support <span>Nov 2018 - Feb 2019</span></h2>
+                                                <h4><a href="" class="wrap">Company, กรุงเทพฯ - ประเทศไทย</a></h4>
+                                                <p>เรียนรู้การทำงานของเครื่องมาร์คแบบดอทและเลเซอร์ และพัฒนาโปรแกรมจัดการงานซ่อมเครื่องจักร (สินค้า)</p>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-none">
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-blog" data-section="portfolio">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">My Portfolio</span>
+                                <h2 class="colorlib-heading">ผลงานทั้งหมด</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="blog-entry">
+                                    <a class="blog-img"><img src="~/Content/images/work-1.jpg" class="img-responsive"></a>
+                                    <div class="desc">
+                                        <span><small>VB.Net Desktop App </small></span>
+                                        <h3>ระบบจัดการ Service Booking สำหรับงานซ่อมเครื่องจักร</h3>
+                                        <p>ซอฟต์แวร์นี้ใช้ภาษา VB.Net (Windows Form App) ทำงานร่วมกับฐานข้อมูล SQL Server 2014 มีวัตถุประสงค์เพื่อบันทึกข้อมูลงานซ่อมในระบบฐานข้อมูลและเรียกใช้งานได้ง่ายขึ้น รวมทั้งสามารถตรวจสอบสถานะงานซ่อมและการรับประกันแบบเรียลไทม์และย้อนหลังได้</p>
+                                        <p>คุณสมบัติของซอฟต์แวร์</p>
+                                        <p>1) ดูสถานะการทำงานและรายละเอียดงานซ่อม (ไม่จำเป็นต้องล็อกอินเข้าระบบ)</p>
+                                        <p>2) จัดการข้อมูลและสถานะงานซ่อม และแจ้งปัญหาไปยังผู้ดูแลระบบ (สำหรับพนักงานล็อกอินเข้าระบบเท่านั้น)</p>
+                                        <p>3) สามารถเข้าถึงการจัดการข้อมูลและสถานะงานซ่อม และแก้ไขปัญหาทั้งระบบ (สำหรับผู้ดูแลระบบเท่านั้น)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="blog-entry">
+                                    <a class="blog-img"><img src="~/Content/images/work-2.jpg" class="img-responsive"></a>
+                                    <div class="desc">
+                                        <span><small>My first web project </small></span>
+                                        <h3>เว็บไซต์ Chinnathorn's MyPort</h3>
+                                        <p>แฟ้มสะสมผลงานออนไลน์ของตัวผมเอง พัฒนาโดยภาษา C# ASP.Net MVC และระบบ Front-End ทำงานด้วยภาษา HTML/CSS (ใช้ Bootstrap Framework ในการปรับโครงสร้างหน้าเว็บให้สวยงาม) และ JQuery สำหรับทำลูกเล่นบนหน้าเว็บ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-services" data-section="favorite">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Relax Time</span>
+                                <h2 class="colorlib-heading">งานอดิเรกและสิ่งที่ชอบ</h2>
+                            </div>
+                        </div>
+                        <div class="row row-pt-md">
+                            <div class="col-md-12 text-center animate-box">
+                                <div class="services color-5">
+                                    <span class="icon">
+                                        <i class="fas fa-play-circle fa-3x"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>งานอดิเรก</h3>
+                                        <p>ปั่นจักรยาน, ฝึกเขียนโปรแกรม, ฟังเพลง</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center animate-box">
+                                <div class="services color-3">
+                                    <span class="icon">
+                                        <i class="fas fa-star fa-3x"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>สิ่งที่ชอบ</h3>
+                                        <p>รายการโทรทัศน์ที่ชื่นชอบ : Hollywood Game Night Thailand, ยืน 1, รายการบนยูทูป (Bie The Ska, เถื่อน Channel) เป็นต้น</p>
+                                        <p>ภาพยนตร์โปรด : Avengers, Johnney English, ฉลาดเกมโกง</p>
+                                        <p>ศิลปินที่ชอบ : Bodyslam, Potato, เบิร์ด ธงไชย, Maroon5, The Chainsmokers, BNK48 เป็นต้น</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Get in Touch</span>
+                                <h2 class="colorlib-heading">การติดต่อ</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12 text-center animate-box">
+                                        <div class="services color-3">
+                                            <div class="text-left desc">
+                                                <h3>ข้อมูลการติดต่อ</h3>
+                                                <p><i class="fas fa-envelope"></i> <a href="mailto:mail.receive@outlook.com?subject"> mail.receive@outlook.com</a></p>
+                                                <p><i class="fas fa-location-arrow"></i> 123/45 แขวงบางบอน เขตบางบอน กทม. 10150</p>
+                                                <p><i class="fas fa-phone"></i><a href="tel:+66659578993"> +66 81 234 5678</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-6 col-md-push-1">
+                                <div class="row">
+                                    <div class="col-md-12 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="text-center mt-5" id="WaitIco">
+                                            <div class="loader"></div>
+                                            <p>กำลังส่งข้อความ</p>
+                                        </div>
+                                        <form action="">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ชื่อ" id="Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="อีเมล์" id="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="หัวข้อ" id="Subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea id="Message" class="form-control" placeholder="ข้อความ"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <a class="btn btn-primary btn-send-message" id="OK">ส่งข้อความ</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="colorlib-credit">
+                    <hr>
+                    <p class="text-center">
+                        <b>
+                            &copy;
+                            สงวนลิขสิทธิ์ &copy;
+                            <script>document.write(new Date().getFullYear() + 543);</script> โดย นายชิณธร พร้อมนฤฤทธิ์
+                        </b>
+                    </p>
+                    <p class="text-center">
+                        <b>
+                            เทมเพลตนี้พัฒนาโดย <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </b>
+                    </p>
+                    <p class="text-center">
+                        <b>
+                            โปรเจคนี้ได้รับอนุญาตให้เปิดเผย Source Code ทั้งหมดแล้ว ตัวอย่างเว็บให้เข้าไปดู<a href="https://portfolio.chinnathornp.com" target="_blank">ที่นี่</a>
+                        </b>
+                    </p>
+                </footer>
+            </div><!-- end:colorlib-main -->
+        </div><!-- end:container-wrap -->
+    </div><!-- end:colorlib-page -->
+
+    <div class="modal fade" id="changelangModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">กรุณาเลือกภาษา</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mb-4">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <a id="changeEN" href="/home/en" data-toggle="tooltip" data-placement="bottom" title="เปลี่ยนเป็นภาษาอังกฤษ"><img src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg" width="100" /></a>
+                        </div>
+                        <div class="col-md-2">&nbsp;</div>
+                        <div class="col-md-5 text-center">
+                            <a id="changeTH" href="" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="ใช้งานภาษาไทย"><img src="https://lipis.github.io/flag-icon-css/flags/4x3/th.svg" width="100" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/combine/npm/bootstrap@4.5.0,npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <!-- Waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="https://cdn.jsdelivr.net/npm/flexslider@2.7.2/jquery.flexslider.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-countto@1.2.0/jquery.countTo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.all.min.js"></script>
+
+
+    <!-- MAIN JS -->
+    <script src="~/Content/js/main.js"></script>
+    <script src="~/Content/js/QuickSend.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            InspectLock();
+            $('#WaitIco').hide();
+            $('body').fadeIn('fast');
+            $('#changeLang').tooltip();
+            $('.wrap').click(function () {
+                $('body').fadeOut(250)
+            })
+            $('#changelang').click(function () {
+                $('#changelangModal').modal('show')
+            })
+            $('#changeEN').click(function () {
+                $('body').fadeOut(250)
+            })
+            $('#OK').click(function () {
+                $('input').hide();
+                $('textarea').hide();
+                $('#OK').hide();
+                getMessage('th');
+            })
+        })
+    </script>
+</body>
+</html>
+
