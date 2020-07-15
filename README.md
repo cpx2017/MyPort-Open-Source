@@ -26,3 +26,7 @@ Project Requirement
 3) Minimum: Visual Studio 2010 or better
 4) Reccommendation: Visual Studio 2015 Community or better
 Notes: You can use Visual Studio Code to view code also.
+---
+Remark
+1. Please don't be deleted credit footer which required "colorlib". 
+2. Whole of this project can be use education purpose. Please don't to sell or commercial used.
